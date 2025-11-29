@@ -1,5 +1,7 @@
 # Toolify
 
+[中文](README.zh.md) | English
+
 A modern, multi-language collection of practical online tools built with Next.js. Toolify provides developers and users with a comprehensive set of utilities for encoding, encryption, image processing, text manipulation, and more.
 
 ## 🌟 Features
