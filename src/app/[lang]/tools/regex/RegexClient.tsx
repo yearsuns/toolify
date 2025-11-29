@@ -178,7 +178,7 @@ export default function RegexClient() {
   const examples: Record<string, { pattern: string; text: string; replacement?: string; name: string }> = {
     email: {
       pattern: "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
-      text: "联系邮箱：contact@example.com 或 support@toolify.com",
+      text: "联系邮箱：contact@example.com 或 support@toolify-app.vercel.app",
       name: t.regex.exampleEmail,
     },
     phone: {
@@ -188,7 +188,7 @@ export default function RegexClient() {
     },
     url: {
       pattern: "https?://[\\w\\-._~:/?#\\[\\]@!$&'()*+,;=]+",
-      text: "访问 https://www.example.com 或 http://toolify.com",
+      text: "访问 https://www.example.com 或 https://toolify-app.vercel.app",
       name: t.regex.exampleUrl,
     },
     ip: {

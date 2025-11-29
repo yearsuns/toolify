@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { supportedLanguages } from "@/utils/locale";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://toolify.example.com";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://toolify-app.vercel.app";
   
   return {
     rules: [

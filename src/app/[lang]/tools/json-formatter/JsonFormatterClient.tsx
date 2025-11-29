@@ -102,7 +102,7 @@ export default function JsonFormatterClient() {
       features: ["JSON格式化", "Base64编码", "时间戳转换"],
       author: {
         name: "Toolify Team",
-        email: "contact@toolify.com"
+        email: "contact@toolify-app.vercel.app"
       },
       tags: ["工具", "在线", "实用"]
     };

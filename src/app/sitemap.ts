@@ -3,7 +3,7 @@ import { supportedLanguages } from "@/utils/locale";
 import { tools } from "@/data/tools";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://toolify.example.com";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://toolify-app.vercel.app";
   const currentDate = new Date();
   
   const urls: MetadataRoute.Sitemap = [];

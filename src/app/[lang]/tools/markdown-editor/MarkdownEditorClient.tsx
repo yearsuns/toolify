@@ -107,7 +107,7 @@ function hello() {
 
 ### Links
 
-Visit [Toolify](https://toolify.example.com) for more tools.
+Visit [Toolify](https://toolify-app.vercel.app) for more tools.
 
 ### Images
 

@@ -115,7 +115,7 @@ export default function QrcodeClient() {
 
   // Load example
   const loadExample = async () => {
-    const example = "https://toolify.example.com";
+    const example = "https://toolify-app.vercel.app";
     setInput(example);
     setError("");
     await generateQRCode(example);

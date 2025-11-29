@@ -67,7 +67,7 @@ export default function UrlEncoderClient() {
 
   // Load example
   const loadExample = () => {
-    const example = "https://example.com/search?q=你好世界&lang=zh";
+    const example = "https://toolify-app.vercel.app/search?q=你好世界&lang=zh";
     setInput(example);
     setOutput("");
     setError("");
